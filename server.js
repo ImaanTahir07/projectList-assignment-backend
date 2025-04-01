@@ -23,7 +23,6 @@ app.get('/projects', (req, res) => {
 
 // Create a project
 app.post('/projects', (req, res) => {
-  console.log("EMMMMAANNNNN");
   const newProject = {
     id: nextId++,
     content: req.body.content
